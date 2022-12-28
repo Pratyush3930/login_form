@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    font-size: 20px;
+}
 .nav-bar{
     display: flex;
-    background-color: grey;
+    background-color: black;
+    color: white;
+}
+.home{
+    background : green;   
 }
 .style{
     padding: 25px;
@@ -9,6 +17,7 @@
 .box{
     display: flex;
     justify-content: center;
+    background-color: #3a3a7e;
 }
 .form{
     
@@ -31,4 +40,16 @@ label{
 input{
     font-size: 15px;
     padding: 10px 26px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn{
+    padding: 4px 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: red;
 }
