@@ -6,6 +6,10 @@
     padding: 25px;
     
 }
+.box{
+    display: flex;
+    justify-content: center;
+}
 .form{
     
     display: flex;
@@ -16,10 +20,15 @@
     justify-content: center;
     margin: 100px;
     height: 400px;
+    width: 50%;
 }
-input ,label{
+label{
     display: block;
-
-    justify-content: center;
+    font-size: 30px;
     width: 150px;
+    padding: 14px;
+}
+input{
+    font-size: 15px;
+    padding: 10px 26px;
 }
