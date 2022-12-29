@@ -6,6 +6,12 @@
     display: flex;
     background-color: black;
     color: white;
+    position: sticky;
+    top: 0;
+}
+nav a:hover{
+        text-decoration: underline;
+        cursor: pointer;
 }
 .home{
     background : green;   
@@ -26,10 +32,11 @@
     flex-direction: column;
     border: 2px solid black;
     text-align: center;
-    justify-content: center;
+    justify-content: center; 
     margin: 100px;
     height: 400px;
     width: 50%;
+    background-color: #1a2937;
 }
 label{
     display: block;
