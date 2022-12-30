@@ -27,6 +27,8 @@ nav a:hover{
     box-shadow: 10px 10px;
     
 }
+
+
 .form{
     
     display: flex;
@@ -39,20 +41,27 @@ nav a:hover{
     height: 400px;
     width: 50%;
     background-color: #1a2937;
-
+}
+h1{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    top: -50px;
 }
 label{
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     width: 150px;
     padding: 14px;
     color: white;
 }
+
 input{
     font-size: 15px;
     padding: 10px 26px;
     border: 0;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     outline: none;
     background:transparent;
     box-shadow: none;
